@@ -157,5 +157,5 @@ if uploaded_file:
         with open(pdf_path, "rb") as file:
             st.download_button("⬇️ Download PDF", file, file_name="classification_report.pdf")
 
-# cd "C:\Users\KBsan\OneDrive\Desktop\DIP Project"
 # py -3.10 -m streamlit run dipapplication.py
+
